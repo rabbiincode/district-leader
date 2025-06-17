@@ -1,0 +1,37 @@
+<aside
+  class="
+    fixed top-0 left-0 h-screen w-64 bg-[#166081] shadow-lg z-500
+    md:relative md:translate-x-0 flex flex-col justify-between gap-4 text-white
+  "
+>
+  <div>
+    <h1 class="text-[1.5rem] font-bold text-gray-100 p-4 pt-6">District Leader</h1>
+    @for (section of sidebar; track $index) {
+      <div class="mt-10 mb-12">
+        <h2 class="text-xl font-semibold p-4">{{ section.title }}</h2>
+        <ul class="mt-4">
+          @for (item of section.items; track $index) {
+            <li 
+              (click)="onToggleClick(item.key)"
+              [ngClass]="{
+                'bg-sky-800': active === item.key,
+                'hover:bg-sky-800': true,
+                'hover:cursor-pointer': true,
+                'flex': true,
+                'items-center': true,
+                'gap-2': true,
+                'p-4': true
+              }"
+            >
+            <i [ngClass]="getIconClass(item.icon)"></i> {{ item.label }}
+            </li>
+          }
+        </ul>
+      </div>
+    }
+  </div>
+
+  <span class="flex items-center gap-2 p-4">
+    <mat-icon>logout</mat-icon> Logout
+  </span>
+</aside>

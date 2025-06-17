@@ -1,0 +1,79 @@
+@use "tailwindcss";
+
+html, body{
+  background: var(--bg);
+  color: var(--text);
+  min-height: 100%;
+  max-width: 2500px;
+  margin: auto;
+  font-size: clamp(9px, 15px, 19px);
+  font-weight: normal;
+  line-height: normal;
+  font-style: normal;
+  font-family: sans-serif, "Helvetica Neue",;
+  scrollbar-width: thin;
+  scroll-behavior: smooth;
+  scrollbar-gutter: stable;
+}
+
+/* width */
+::-webkit-scrollbar{
+  width: 0.625rem;
+}
+
+/* Track */
+::-webkit-scrollbar-track{
+  background: var(--bg);
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb{
+  background: var(--text);
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover{
+  background: var(--text-hover);
+}
+
+@media (max-width: 768px){
+  html, body{
+    font-size: clamp(7.5px, 14px, 17.5px);
+  }
+}
+
+@media (max-width: 640px){
+  html, body{
+    font-size: clamp(6.5px, 13px, 16.5px);
+  }
+}
+
+@media (max-width: 375px){
+  html, body{
+    font-size: clamp(5.5px, 10.5px, 14.5px);
+  }
+}
+
+@media (max-width: 225px){
+  html, body{
+    font-size: clamp(3.5px, 6.5px, 10.5px);
+  }
+}
+
+@media (max-width: 150px){
+  html, body{
+    font-size: clamp(2.2px, 4.7px, 7.7px);
+  }
+}
+
+@media (max-width: 110px){
+  html, body{
+    font-size: clamp(1.3px, 2.7px, 4.3px);
+  }
+}
+
+@media (max-width: 60px){
+  html, body{
+    font-size: clamp(0.9px, 1.7px, 3.7px);
+  }
+}

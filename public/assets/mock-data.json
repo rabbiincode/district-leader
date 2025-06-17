@@ -1,0 +1,67 @@
+[
+  {
+    "id": 1,
+    "name": "Olivia Brown",
+    "teacher": "Ms. Jennifer Anderson",
+    "grade": "11th Grade",
+    "gradeRange": "9-12",
+    "semester": "Winter",
+    "math": 100,
+    "ela": 99,
+    "status": "Excellent",
+    "school": "Central High",
+    "principal": "Principal Name"
+  },
+  {
+    "id": 2,
+    "name": "James Davis",
+    "teacher": "Mr. David Thompson",
+    "grade": "12th Grade",
+    "gradeRange": "9-12",
+    "semester": "Winter",
+    "math": 79,
+    "ela": 81,
+    "status": "Average",
+    "school": "Westside High",
+    "principal": "Principal Name"
+  },
+  {
+    "id": 3,
+    "name": "Mia Thompson",
+    "teacher": "Ms. Jennifer Anderson",
+    "grade": "12th Grade",
+    "gradeRange": "9-12",
+    "semester": "Winter",
+    "math": 78,
+    "ela": 80,
+    "status": "Average",
+    "school": "Eastside High",
+    "principal": "Principal Name"
+  },
+  {
+    "id": 4,
+    "name": "Charlotte Wilson",
+    "teacher": "Mrs. Sarah Martinez",
+    "grade": "12th Grade",
+    "gradeRange": "9-12",
+    "semester": "Winter",
+    "math": 88,
+    "ela": 91,
+    "status": "Good",
+    "school": "Northview High",
+    "principal": "Principal Name"
+  },
+  {
+    "id": 5,
+    "name": "Amelia Johnson",
+    "teacher": "Mr. Robert Johnson",
+    "grade": "11th Grade",
+    "gradeRange": "9-12",
+    "semester": "Winter",
+    "math": 95,
+    "ela": 98,
+    "status": "Excellent",
+    "school": "Lakeside High",
+    "principal": "Principal Name"
+  }
+]
